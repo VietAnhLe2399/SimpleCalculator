@@ -1,0 +1,6 @@
+#ifndef MMODE_H_INCLUDED
+#define MMODE_H_INCLUDED
+
+
+
+#endif // MMODE_H_INCLUDED

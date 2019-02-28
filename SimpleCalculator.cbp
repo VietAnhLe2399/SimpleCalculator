@@ -34,6 +34,10 @@
 		</Compiler>
 		<Unit filename="aMode.cpp" />
 		<Unit filename="aMode.h" />
+		<Unit filename="fMode.cpp" />
+		<Unit filename="fMode.h" />
+		<Unit filename="mMode.cpp" />
+		<Unit filename="mMode.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

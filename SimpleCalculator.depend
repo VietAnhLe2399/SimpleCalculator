@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1550220961 source:c:\users\ccne\desktop\simplecalculator\amode.cpp
+	"aMode.h"
+
+1550220961 c:\users\ccne\desktop\simplecalculator\amode.h
+
+1550222526 source:c:\users\ccne\desktop\simplecalculator\main.cpp
+	<iostream>
+	<stdlib.h>
+	"aMode.h"
+
