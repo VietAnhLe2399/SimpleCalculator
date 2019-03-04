@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CONSTANT.h" />
 		<Unit filename="aMode.cpp" />
 		<Unit filename="aMode.h" />
 		<Unit filename="fMode.cpp" />

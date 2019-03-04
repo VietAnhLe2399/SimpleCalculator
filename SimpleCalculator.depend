@@ -9,3 +9,70 @@
 	<stdlib.h>
 	"aMode.h"
 
+1551429569 source:c:\users\ccne\downloads\simplecalculator-master\amode.cpp
+	"aMode.h"
+
+1551429587 c:\users\ccne\downloads\simplecalculator-master\amode.h
+
+1551426955 source:c:\users\ccne\downloads\simplecalculator-master\fmode.cpp
+	"fMode.h"
+	<math.h>
+
+1551427026 c:\users\ccne\downloads\simplecalculator-master\fmode.h
+
+1551432228 source:c:\users\ccne\downloads\simplecalculator-master\mmode.cpp
+	"mMode.h"
+	<math.h>
+
+1551432185 source:c:\users\ccne\downloads\simplecalculator-master\main.cpp
+	<iostream>
+	<stdlib.h>
+	"aMode.h"
+	"fMode.h"
+	"mMode.h"
+	<stdio.h>
+
+1551432227 c:\users\ccne\downloads\simplecalculator-master\mmode.h
+
+1551606662 source:d:\ltnc\simplecalculator-master\amode.cpp
+	"aMode.h"
+
+1551606662 d:\ltnc\simplecalculator-master\amode.h
+
+1551606662 source:d:\ltnc\simplecalculator-master\fmode.cpp
+	"fMode.h"
+	<math.h>
+
+1551606662 d:\ltnc\simplecalculator-master\fmode.h
+
+1551672264 source:d:\ltnc\simplecalculator-master\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1551668379 d:\ltnc\simplecalculator-master\mmode.h
+
+1551626843 source:d:\ltnc\simplecalculator-master\mmode.cpp
+	"mMode.h"
+	<math.h>
+
+1551668470 d:\ltnc\simplecalculator-master\constant.h
+
+1551606662 source:d:\ltnc\simplecalculator\amode.cpp
+	"aMode.h"
+
+1551606662 d:\ltnc\simplecalculator\amode.h
+
+1551606662 source:d:\ltnc\simplecalculator\fmode.cpp
+	"fMode.h"
+	<math.h>
+
+1551606662 d:\ltnc\simplecalculator\fmode.h
+
+1551626843 source:d:\ltnc\simplecalculator\mmode.cpp
+	"mMode.h"
+	<math.h>
+
+1551668379 d:\ltnc\simplecalculator\mmode.h
+

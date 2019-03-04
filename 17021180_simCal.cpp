@@ -1,12 +1,56 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#include "aMode.h"
-#include "fMode.h"
-#include "mMode.h"
-#include "CONSTANT.h"
+#include <math.h>
 
 using namespace std;
+
+/**
+* CONST
+*/
+const char A_MODE = 'a';
+const char F_MODE = 'f';
+const char M_MODE = 'm';
+const char QUIT = 'q';
+const char ENTER = '\n';
+const char CLEAR = 'c';
+
+const char ADDITION = '+';
+const char SUBTRACTION = '-';
+const char DIVISION = '/';
+const char MULTIPLICATION = '*';
+const char SIN = 's';
+const char COS = 'c';
+const char TAN = 't';
+const char COT = 'o';
+const char POW = 'p';
+const char SQRT = 'n';
+const char LOG = 'l';
+#define PI 3.14159265
+#define val PI/180
+
+/**
+* A_MODE
+*/
+double add(double, double);
+double sub(double, double);
+double divi(double, double);
+double mul(double, double);
+
+/**
+* F_MODE
+*/
+double calsin(double);
+double calcos(double);
+double caltan(double);
+double calcot(double);
+
+/**
+* M_MODE
+*/
+double calpow(double, double);
+double callog(double);
+double calsqrt(double);
 
 /**
 * print function
@@ -274,6 +318,63 @@ int main()
     }
     cout << "Thanks for using my Calculator!" << endl;
     return 0;
+}
+
+/**
+* A_MODE
+*/
+double add(double num1, double num2)
+{
+    return num1 + num2;
+}
+
+double sub(double num1, double num2)
+{
+    return num1 - num2;
+}
+
+double divi(double num1, double num2)
+{
+    return num1/num2;
+}
+
+double mul(double num1, double num2)
+{
+    return num1*num2;
+}
+
+/**
+* F_MODE
+*/
+double calsin(double x){
+    return sin(x*val);
+}
+
+double calcos(double x){
+    return cos(x*val);
+}
+
+double caltan(double x){
+    return calsin(x)/calcos(x);
+}
+
+double calcot(double x){
+    return 1/caltan(x);
+}
+
+/**
+* M_MODE
+*/
+double calpow(double num1, double num2){
+    return pow(num1, num2);
+}
+
+double callog(double num1){
+    return log(num1);
+}
+
+double calsqrt(double num1){
+    return sqrt(num1);
 }
 
 /**
